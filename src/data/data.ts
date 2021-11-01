@@ -1,4 +1,5 @@
 import {
+    IntroduccionInterface,
     PerfilInterface,
     AptitudesHabilidadesInterface,
     TecnologiasInterface,
@@ -11,6 +12,11 @@ import {
     EducacionInterface,
     EstudiosInterface,
 } from '../interface/interface'
+
+export const INTRODUCCION: IntroduccionInterface = {
+    nombre: 'AGUSTÍN EZEQUIEL ARENAS BAREA',
+    descripcion: 'FULL STACK WEB DEVELOPER',
+}
 
 export const PERFIL: PerfilInterface = {
     title: 'PERFIL PERSONAL',
