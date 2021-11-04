@@ -1,11 +1,11 @@
 import * as React from "react";
-import { PERFIL } from '../../data/data';
+import { INTRODUCCION } from '../../data/data';
 
 export default function Perfil() {
   return (
     <div>
-      <h3>{PERFIL.title}</h3>
-      <p>{PERFIL.description}</p>
+      <h3>{INTRODUCCION.name}</h3>
+      <p>{INTRODUCCION.description}</p>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import {
     AptitudesHabilidadesInterface,
     TecnologiasInterface,
     InteresesInterface,
+    ContactosInterface,
     ContactoInterface,
     ProyectoInterface,
     ProyectosInterface,
@@ -14,8 +15,8 @@ import {
 } from '../interface/interface'
 
 export const INTRODUCCION: IntroduccionInterface = {
-    nombre: 'AGUSTÍN EZEQUIEL ARENAS BAREA',
-    descripcion: 'FULL STACK WEB DEVELOPER',
+    name: 'AGUSTÍN EZEQUIEL ARENAS BAREA',
+    description: 'FULL STACK WEB DEVELOPER',
 }
 
 export const PERFIL: PerfilInterface = {
@@ -53,14 +54,28 @@ export const INTERESES: InteresesInterface = {
     description: 'Tengo interés por el estudio de diferentes tecnologías. En la actualidad estoy aprendiendo por mi cuenta el uso de Typescript y React Native. También disfruto con la música y el dibujo.',
 }
 
+const CONTACTOS: ContactosInterface[] = [
+    {
+        type: 'Teléfono:',
+        data: '+54 3517738914'
+    },
+    {
+        type: 'Email:',
+        data: 'arenasagustin@gmail.com'
+    },
+    {
+        type: 'LinkedIn:',
+        data: 'https://www.linkedin.com/in/agustin-arenas-barea/'
+    },
+    {
+        type: 'GitHub:',
+        data: 'https://github.com/ArenasAgustin'
+    }
+]
+
 export const CONTACTO: ContactoInterface = {
     title: 'INFORMACIÓN DE CONTACTO',
-    description: [
-        'Teléfono: +54 3517738914',
-        'Email: arenasagustin@gmail.com',
-        'Linkedin: https://www.linkedin.com/in/agustin-ezequiel-arenas-barea/',
-        'GitHub: https://github.com/ArenasAgustin',
-    ],
+    description: CONTACTOS,
 }
 
 const PROYECTOS_ARRAY: ProyectoInterface[] = [

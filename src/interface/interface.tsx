@@ -1,6 +1,6 @@
 export interface IntroduccionInterface {
-    nombre: string;
-    descripcion: string;
+    name: string;
+    description: string;
 }
 
 export interface PerfilInterface {
@@ -23,9 +23,14 @@ export interface InteresesInterface {
     description: string;
 }
 
+export interface ContactosInterface {
+    type: string;
+    data: string;
+}
+
 export interface ContactoInterface {
     title: string;
-    description: string[];
+    description: ContactosInterface[];
 }
 
 export interface ProyectoInterface {
