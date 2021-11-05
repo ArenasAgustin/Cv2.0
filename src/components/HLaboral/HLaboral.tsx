@@ -14,7 +14,7 @@ export default function IHLaboral() {
               <h4>{item.subtitle}</h4>
               <ul>
                 {item.description.map((item, index) => {
-                    return <li key={index}>{item}</li>;
+                  return <li key={index}>{item}</li>;
                 })}
               </ul>
             </div>

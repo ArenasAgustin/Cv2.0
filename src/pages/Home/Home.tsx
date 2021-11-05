@@ -1,10 +1,11 @@
-import Contacto from "../../components/Contacto/Contacto";
+import SeccionPersonal from "../../components/SeccionPersonal/SeccionPersonal";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <Contacto />
+      <div>
+        <SeccionPersonal />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
-import * as React from "react";
-import { INTERESES } from '../../data/data';
+import React from "react";
+import { INTERESES } from "../../data/data";
 
 export default function Intereses() {
   return (

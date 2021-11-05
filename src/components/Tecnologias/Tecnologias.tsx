@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { APTITUDES_HABILIDADES } from "../../data/data";
 
 export default function Tecnologias() {

@@ -1,5 +1,5 @@
-import * as React from "react";
-import { PERFIL } from '../../data/data';
+import React from "react";
+import { PERFIL } from "../../data/data";
 
 export default function PerfilPersonal() {
   return (

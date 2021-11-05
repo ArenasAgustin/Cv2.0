@@ -1,9 +1,9 @@
-import * as React from "react";
+import React from "react";
 import { CONTACTO } from "../../data/data";
 
 export default function Contacto() {
   const descripcion = CONTACTO.description;
-  
+
   return (
     <div>
       <h3>{CONTACTO.title}</h3>
@@ -20,12 +20,16 @@ export default function Contacto() {
 
         <li>
           <span>{descripcion[2].type} </span>
-          <a href={descripcion[2].data} target='_blank'>{descripcion[2].data}</a>
+          <a href={descripcion[2].data} target="_blank">
+            {descripcion[2].data}
+          </a>
         </li>
 
         <li>
           <span>{descripcion[3].type} </span>
-          <a href={descripcion[3].data} target='_blank'>{descripcion[3].data}</a>
+          <a href={descripcion[3].data} target="_blank">
+            {descripcion[3].data}
+          </a>
         </li>
       </ul>
     </div>
