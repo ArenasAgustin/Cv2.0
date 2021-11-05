@@ -5,6 +5,7 @@ import AptitudesHAbilidades from "../AptitudesHabilidades/AptitudesHabilidades";
 import Tecnologias from "../Tecnologias/Tecnologias";
 import Intereses from "../Intereses/Intereses";
 import Contacto from "../Contacto/Contacto";
+import './SeccionPersonal.css'
 
 export default function SeccionPersonal() {
   return (
@@ -13,7 +14,7 @@ export default function SeccionPersonal() {
         <Perfil />
       </div>
 
-      <div></div>
+      <div id='linea'></div>
 
       <div>
         <PerfilPersonal />

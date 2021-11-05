@@ -1,11 +1,12 @@
 import React from "react";
 import { INTRODUCCION } from "../../data/data";
+import './Perfil.css'
 
 export default function Perfil() {
   return (
     <div>
-      <h3>{INTRODUCCION.name}</h3>
-      <p>{INTRODUCCION.description}</p>
+      <h1 className='titlePerfil'>{INTRODUCCION.name}</h1>
+      <h2 className='descripcionPerfil'>{INTRODUCCION.description}</h2>
     </div>
   );
 }
