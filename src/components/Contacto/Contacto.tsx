@@ -6,8 +6,8 @@ export default function Contacto() {
 
   return (
     <div>
-      <h3>{CONTACTO.title}</h3>
-      <ul>
+      <h2 className="divTituloDatos">{CONTACTO.title}</h2>
+      <ul className="divDataInfo">
         <li>
           <span>{descripcion[0].type} </span>
           <span>{descripcion[0].data}</span>

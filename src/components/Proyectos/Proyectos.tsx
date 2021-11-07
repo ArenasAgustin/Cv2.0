@@ -4,12 +4,12 @@ import { PROYECTOS } from "../../data/data";
 export default function Proyectos() {
   return (
     <div>
-      <h3>{PROYECTOS.title}</h3>
+      <h2 className='titulosExperiencia'>{PROYECTOS.title}</h2>
 
       <div>
         {PROYECTOS.description.map((proyecto) => (
           <div className="proyecto" key={proyecto.title}>
-            <h4>{proyecto.title}</h4>
+            <h3 className="subtitleExperiencia">{proyecto.title}</h3>
             <p>{proyecto.description}</p>
             <div>
               <span>Github: </span>

@@ -1,6 +1,6 @@
-h3 {
-  font-size: 1.7em;
-  font-weight: bold;
+h3, h2, h4, h1, h5, h6 {
+  margin-block: 0;
+  padding-inline: 0;
 }
 
 p,
@@ -14,12 +14,12 @@ li {
 }
 
 ul {
-    margin-block: 0;
-    padding-inline: 0;
+  margin-block: 0;
+  padding-inline: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #FFE7D4;
-    font-size: 0.9em;
+  text-decoration: none;
+  color: #ffe7d4;
+  font-size: 0.9em;
 }

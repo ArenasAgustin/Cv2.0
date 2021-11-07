@@ -4,8 +4,8 @@ import { INTERESES } from "../../data/data";
 export default function Intereses() {
   return (
     <div>
-      <h3>{INTERESES.title}</h3>
-      <p>{INTERESES.description}</p>
+      <h2 className="divTituloDatos">{INTERESES.title}</h2>
+      <p className="divDataInfo">{INTERESES.description}</p>
     </div>
   );
 }

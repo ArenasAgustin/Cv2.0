@@ -5,34 +5,34 @@ import AptitudesHAbilidades from "../AptitudesHabilidades/AptitudesHabilidades";
 import Tecnologias from "../Tecnologias/Tecnologias";
 import Intereses from "../Intereses/Intereses";
 import Contacto from "../Contacto/Contacto";
-import './SeccionPersonal.css'
+import "./SeccionPersonal.css";
 
 export default function SeccionPersonal() {
   return (
-    <div>
-      <div>
+    <div className="divSPersonal">
+      <div className="divDatos">
         <Perfil />
       </div>
 
-      <div id='linea'></div>
+      <div id="linea"></div>
 
-      <div>
+      <div className="divDatos">
         <PerfilPersonal />
       </div>
 
-      <div>
+      <div className="divDatos">
         <AptitudesHAbilidades />
       </div>
 
-      <div>
+      <div className="divDatos">
         <Tecnologias />
       </div>
 
-      <div>
+      <div className="divDatos">
         <Intereses />
       </div>
 
-      <div>
+      <div className="divDatos">
         <Contacto />
       </div>
     </div>

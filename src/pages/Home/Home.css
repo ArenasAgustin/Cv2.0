@@ -1,0 +1,25 @@
+.divHome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.divSeccionPersonal{
+    color: #FFE7D4;
+    background-color: #494E5F;
+    padding: 3em;
+    min-width: 20em;
+    max-width: 30em;
+    overflow-y: auto;
+}
+
+.divSeccionExperiencia {
+    color: #494E5F;
+    background-color: #FEFEFA;
+    padding: 3em;
+    max-width: 40em;
+    overflow-y: auto;
+    margin-left: 2em;
+}
