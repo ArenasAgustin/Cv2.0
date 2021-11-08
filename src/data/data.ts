@@ -113,16 +113,16 @@ const TRABAJOS_ARRAY: TrabajoInterface[] = [
         title: 'Ventas y atención al Cliente',
         subtitle: 'Praga Revestimientos (2020 - Presente)',
         description: [
-            'Seguimiento de la satisfacción del cliente para todos los productos y servicios de la empresa.',
-            'Asistencia en resolución de problemas y búsqueda de soluciones para problemas en existentes.',
+            '- Seguimiento de la satisfacción del cliente para todos los productos y servicios de la empresa.',
+            '- Asistencia en resolución de problemas y búsqueda de soluciones para problemas en existentes.',
         ],
     },
     {
         title: 'Atención al Cliente (Pasantías)',
         subtitle: 'Municipalidad de Córdoba (Octubre de 2019 - Noviembre de 2019)',
         description: [
-            'Gestión personal de consultas de clientes.',
-            'Gestión de operaciones internas para la mejora de la calidad de servicio',
+            '- Gestión personal de consultas de clientes.',
+            '- Gestión de operaciones internas para la mejora de la calidad de servicio',
         ],
     },
 ]

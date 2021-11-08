@@ -11,8 +11,8 @@ export default function IHLaboral() {
           return (
             <div key={index}>
               <h3 className="subtitleExperiencia">{item.title}</h3>
-              <h4>{item.subtitle}</h4>
-              <ul>
+              <h4 className="subsubTitleExperiencia">{item.subtitle}</h4>
+              <ul className="dataExperiencia">
                 {item.description.map((item, index) => {
                   return <li key={index}>{item}</li>;
                 })}
