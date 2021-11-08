@@ -16,13 +16,13 @@ export default function Proyectos() {
               <p className="dataExperienciaTexto">{proyecto.description}</p>
               <div className="dataExperienciaLinks">
                 <span>Github: </span>
-                <a href={proyecto.url}>{proyecto.url}</a>
+                <a href={proyecto.url} target="_blank">{proyecto.url}</a>
               </div>
 
               {proyecto.url_deploy ? (
                 <div className="dataExperienciaLinks">
                   <span>Deploy: </span>
-                  <a href={proyecto.url_deploy}>{proyecto.url_deploy}</a>
+                  <a href={proyecto.url_deploy} target="_blank">{proyecto.url_deploy}</a>
                 </div>
               ) : null}
             </div>
