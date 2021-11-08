@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   overflow-y: auto;
 }
 
@@ -10,7 +11,7 @@
   color: #ffe7d4;
   background-color: #494e5f;
   padding: 3em;
-  min-width: 20em;
+  min-width: 18em;
   max-width: 30em;
   overflow-y: auto;
 }
@@ -19,7 +20,8 @@
   color: #494e5f;
   background-color: #fefefa;
   padding: 3em;
+  min-width: 18em;
   max-width: 40em;
-  overflow-y: auto;
-  margin-left: 2em;
+  overflow: auto;
+  margin-left: 1em;
 }
