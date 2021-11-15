@@ -31,6 +31,13 @@ export default function Contacto() {
             {descripcion[3].data}
           </a>
         </li>
+
+        <li>
+          <span>{descripcion[4].type} </span>
+          <a href={descripcion[4].data} target="_blank">
+            {descripcion[4].data}
+          </a>
+        </li>
       </ul>
     </div>
   );
