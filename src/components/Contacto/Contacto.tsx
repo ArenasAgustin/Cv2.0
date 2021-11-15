@@ -15,7 +15,7 @@ export default function Contacto() {
 
         <li>
           <span>{descripcion[1].type} </span>
-          <span>{descripcion[1].data}</span>
+          <a href={`mailto:${descripcion[1].data}`} target="_blank">{descripcion[1].data}</a>
         </li>
 
         <li>
