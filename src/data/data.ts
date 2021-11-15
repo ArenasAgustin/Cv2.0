@@ -70,6 +70,10 @@ const CONTACTOS: ContactosInterface[] = [
     {
         type: 'GitHub:',
         data: 'https://github.com/ArenasAgustin'
+    },
+    {
+        type: 'Portfolio:',
+        data: 'https://portfolio-agustin-arenas.web.app/'
     }
 ]
 
@@ -79,6 +83,12 @@ export const CONTACTO: ContactoInterface = {
 }
 
 const PROYECTOS_ARRAY: ProyectoInterface[] = [
+    {
+        title: 'Wave Music',
+        description: 'Proyecto de una consola de comandos, donde uso JavaScript, Node.',
+        url: 'https://github.com/ArenasAgustin/Repo-para-PG',
+        url_deploy: 'https://proyecto-grupal-18c81.web.app/',
+    },
     {
         title: 'Pikemons',
         description: 'Proyecto para ver todos los pokemons y crear propios donde uso JavaScript, Node, React, Redux Express, Css, PostgreSQL y Sequelize.',
@@ -95,11 +105,6 @@ const PROYECTOS_ARRAY: ProyectoInterface[] = [
         description: 'Proyecto de una App de tareas, donde uso TypeScript, React, Redux, Css.',
         url: 'https://github.com/ArenasAgustin/TodoAppTypescript',
         url_deploy: 'https://arenasagustin.github.io/TodoAppTypescript/',
-    },
-    {
-        title: 'GrootBash',
-        description: 'Proyecto de una consola de comandos, donde uso JavaScript, Node.',
-        url: 'https://github.com/ArenasAgustin/GrootBash    ',
     }
 ]
 
