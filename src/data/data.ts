@@ -116,7 +116,7 @@ export const PROYECTOS: ProyectosInterface = {
 const TRABAJOS_ARRAY: TrabajoInterface[] = [
     {
         title: 'Ventas y atención al Cliente',
-        subtitle: 'Praga Revestimientos (2020 - Presente)',
+        subtitle: 'Praga Revestimientos (Agosto de 2020 - Noviembre de 2021)',
         description: [
             '- Seguimiento de la satisfacción del cliente para todos los productos y servicios de la empresa.',
             '- Asistencia en resolución de problemas y búsqueda de soluciones para problemas en existentes.',
@@ -159,4 +159,10 @@ const EDUCACION_ARRAY: EducacionInterface[] = [
 export const EDUCACION: EstudiosInterface = {
     title: 'EDUCACIÓN',
     description: EDUCACION_ARRAY,
+}
+
+const numeroDeAlumnos:string[] = ['1.000.000']
+
+function getRandomInt(max: number): number {
+    return Math.floor(Math.random() * Math.floor(max));
 }
