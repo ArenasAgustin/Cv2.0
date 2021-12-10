@@ -40,7 +40,7 @@ export const TECNOLOGIAS: TecnologiasInterface = {
         'JavaScript',
         'React y Redux',
         'Node.js',
-        'HTML, CSS y Less',
+        'HTML, CSS, Less y Sass',
         'SQL, PostgreSQL y Sequelize',
         'MongoDB y Mongoose',
         'Git y GitHub',
